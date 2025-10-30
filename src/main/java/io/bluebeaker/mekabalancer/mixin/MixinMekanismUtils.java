@@ -13,7 +13,7 @@ import static io.bluebeaker.mekabalancer.MekaBalancerConfig.upgrades;
 import static mekanism.common.util.MekanismUtils.fractionUpgrades;
 
 @Mixin(value = MekanismUtils.class,remap = false)
-public class MixinMekanismUtils {
+public abstract class MixinMekanismUtils {
 
     @Inject(method = "getMaxEnergy(Lmekanism/common/base/IUpgradeTile;D)D",at = @At("HEAD"),cancellable = true)
     private static void modifyCapacityEffect(IUpgradeTile mgmt, double def, CallbackInfoReturnable<Double> cir){
