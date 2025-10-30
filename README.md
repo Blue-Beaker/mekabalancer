@@ -1,4 +1,4 @@
-## MEKBalancer
+## MekaBalancer
 Provides more configuration to balance Mekanism for modpacks.
 
 Currently, it provides these config:

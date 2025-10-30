@@ -1,4 +1,4 @@
-package io.bluebeaker.mekbalancer.mixin;
+package io.bluebeaker.mekabalancer.mixin;
 
 import mekanism.common.Upgrade;
 import mekanism.common.base.IUpgradeTile;
@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import static io.bluebeaker.mekbalancer.MEKBalancerConfig.upgrades;
+import static io.bluebeaker.mekabalancer.MekaBalancerConfig.upgrades;
 import static mekanism.common.util.MekanismUtils.fractionUpgrades;
 
 @Mixin(value = MekanismUtils.class,remap = false)

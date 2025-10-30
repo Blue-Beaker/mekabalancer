@@ -1,7 +1,7 @@
-package io.bluebeaker.mekbalancer.mixin;
+package io.bluebeaker.mekabalancer.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
-import io.bluebeaker.mekbalancer.MEKBalancerConfig;
+import io.bluebeaker.mekabalancer.MekaBalancerConfig;
 import mekanism.common.Upgrade;
 import mekanism.common.block.states.BlockStateMachine;
 import mekanism.common.tile.TileEntityElectrolyticSeparator;
@@ -12,8 +12,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static io.bluebeaker.mekbalancer.MEKBalancerConfig.machines;
-import static io.bluebeaker.mekbalancer.MEKBalancerConfig.upgrades;
+import static io.bluebeaker.mekabalancer.MekaBalancerConfig.machines;
+import static io.bluebeaker.mekabalancer.MekaBalancerConfig.upgrades;
 
 @Mixin(value = TileEntityElectrolyticSeparator.class,remap = false)
 public abstract class MixinTileElectrolyzer extends TileEntityMachine {

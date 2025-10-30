@@ -1,11 +1,11 @@
-package io.bluebeaker.mekbalancer;
+package io.bluebeaker.mekabalancer;
 
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Comment;
 import net.minecraftforge.common.config.Config.Type;
 
-@Config(modid = MEKBalancer.MODID,type = Type.INSTANCE,category = "general")
-public class MEKBalancerConfig {
+@Config(modid = MekaBalancer.MODID,type = Type.INSTANCE,category = "general")
+public class MekaBalancerConfig {
     public static Upgrades upgrades = new Upgrades();
     public static class Upgrades {
         @Comment("Enable tweaks to upgrades")

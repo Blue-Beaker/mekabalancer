@@ -1,4 +1,4 @@
-package io.bluebeaker.mekbalancer;
+package io.bluebeaker.mekabalancer;
 
 import java.util.Collections;
 import java.util.List;
@@ -10,11 +10,11 @@ import net.minecraftforge.common.ForgeVersion;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import zone.rong.mixinbooter.ILateMixinLoader;
 
-public class MEKBalancerMixins implements ILateMixinLoader {
+public class MekaBalancerMixins implements ILateMixinLoader {
 
     @Override
     public List<String> getMixinConfigs() {
-        return Collections.singletonList("mixins.mekbalancer.json");
+        return Collections.singletonList("mixins.mekabalancer.json");
     }
 
 }
